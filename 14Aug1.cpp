@@ -1,3 +1,12 @@
+/*
+Question:
+Alice has a string s of size n each character is a song..alice fav song is 'a',
+return the max number of 'a' occuring in a substring of size k
+Solution:
+approach used sliding window keep a window of k and check number of a in them 
+and return max.
+ */
+
 #include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
